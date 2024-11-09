@@ -1,27 +1,27 @@
-# Sistema de Gestión de Tareas
+Sistema de Gestión de Tareas
 
-Este proyecto es una aplicación web básica para la gestión de tareas. Permite a los usuarios crear, listar, actualizar y eliminar tareas. La aplicación está construida utilizando HTML, CSS, JavaScript y PHP, y se conecta a una base de datos MySQL.
+Este proyecto es una aplicación web básica que gestiona tareas. Los usuarios pueden crear, listar, actualizar y eliminar tareas que deseen. La aplicación está hecha con HTML, CSS, JavaScript, PHP y se comunica con una base de datos MySQL.
 
-## Requisitos
+Requisitos
 
-- XAMPP o cualquier servidor local con soporte PHP y MySQL
-- Navegador web (Chrome, Firefox, etc.)
+XAMPP o cualquier servidor local con soporte PHP y MySQL
 
-## Instalación
+Un navegador web como Chrome, Firefox, etc.
 
-1. **Clona o descarga este repositorio** en tu máquina local.
-2. **Inicia XAMPP** y asegúrate de que Apache y MySQL estén ejecutándose.
-3. **Importa la base de datos**:
-    - Abre phpMyAdmin (generalmente accesible desde `http://localhost/phpmyadmin`).
-    - Crea una nueva base de datos llamada `tareas`.
-    - Importa el archivo `database/tareas.sql` en la base de datos `tareas`.
-4. **Ubica los archivos del proyecto** en el directorio `htdocs` de XAMPP:
-    - Mueve la carpeta del proyecto a `C:/xampp/htdocs/Tareas` (o el equivalente en tu sistema).
+Instalación
 
+Clona o descarga este repositorio en tu máquina local.
 
+Inicia XAMPP y asegúrate de que Apache y MySQL se ejecutan.
 
-Las contribuciones son bienvenidas. Si deseas contribuir, por favor, realiza un fork del repositorio y crea un pull request con tus cambios.
+Importa la base de datos:
 
----
+Accede a phpMyAdmin, el cual encuentra en http://localhost/phpmyadmin.
 
-¡Espero que esto te sea útil! Si necesitas más asistencia, aquí estoy para ayudarte. 🚀
+Crea una nueva base de datos - tareas.
+
+Importa el archivo database/tareas.sql que está dentro del archivo base al que acabas de bajar.
+
+Localiza los archivos en la carpeta htdocs en el proyecto XAMPP :
+
+Mueve la carpeta del proyecto a C:/xampp/htdocs/Tareas(o el equivalente del sistema operativo que utilices).
