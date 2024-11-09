@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Función para actualizar una tarea
-    function updateTask(id, title, description) {
+    window.updateTask = function(id, title, description) {
         fetch('server.php', {
             method: 'PUT',
             headers: {
@@ -48,10 +48,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 alert('Error al actualizar tarea');
             }
         });
-    }
+    };
 
     // Función para eliminar una tarea
-    function deleteTask(id) {
+    window.deleteTask = function(id) {
         if (confirm('¿Estás seguro de eliminar esta tarea?')) {
             fetch('server.php', {
                 method: 'DELETE',
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             });
         }
-    }
+    };
 
     // Función para mostrar una tarea en la lista
     function displayTask(task) {
